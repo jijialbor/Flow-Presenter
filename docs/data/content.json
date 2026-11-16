@@ -1,0 +1,223 @@
+{
+  "site": {
+    "name": "FLOW Presenter",
+    "developer": "JPHON",
+    "motto": "FREE SOFTWARE. BUILT TO SERVE. SUPPORTED BY KINDNESS.",
+    "meta_description": "FLOW Presenter is free church presentation software by JPHON, built to help churches, ministries and media teams serve with confidence.",
+    "jphon_url": "https://jijialbor.github.io/jphon/",
+    "contact_email": "",
+    "facebook_url": ""
+  },
+  "images": {
+    "logo": "assets/img/logo-dark.png",
+    "hero": ""
+  },
+  "home": {
+    "hero_title": "SOFTWARE FOR A CAUSE.",
+    "hero_subtitle": "Helping churches experience better presentation and media production, one ministry at a time.",
+    "hero_description": "FLOW Presenter is a free presentation software created to help churches and ministries improve their worship services and media production without the expensive cost of professional presentation software.",
+    "hero_story": "Behind this project is a personal journey. I created FLOW Presenter not only because I wanted to build something useful, but also because I wanted to help churches that may not have the resources to afford expensive presentation software.\n\nIf FLOW Presenter has been helpful to you or your church, you may consider supporting me through a voluntary donation to help with my ongoing hospital bills and the continued development of this project.",
+    "cta_download": "DOWNLOAD FOR FREE",
+    "cta_support": "SUPPORT THIS CAUSE",
+    "hero_note": "Free to download. Free to use. Donations are completely voluntary.",
+    "about_title": "MORE THAN JUST A PRESENTATION SOFTWARE.",
+    "about_text": "FLOW Presenter was created with one simple purpose: to make quality church presentation tools more accessible to churches and ministries.\n\nWe understand that not every church has the budget to purchase expensive presentation software. Yet every church deserves tools that can help its media team serve effectively.\n\nThat is why FLOW Presenter was developed as a free alternative, designed around the practical needs of church presentation teams.",
+    "highlights": [
+      {
+        "title": "MADE FOR CHURCHES",
+        "text": "Designed with church worship services, lyrics presentation, Bible verses, and media teams in mind."
+      },
+      {
+        "title": "SIMPLE TO USE",
+        "text": "A practical interface that helps volunteers and media operators manage presentations more efficiently."
+      },
+      {
+        "title": "FREE FOR EVERYONE",
+        "text": "No subscription fees or required payments. The goal is to make useful presentation tools accessible."
+      }
+    ],
+    "features_title": "EVERYTHING YOUR MEDIA TEAM NEEDS TO PRESENT WITH CONFIDENCE.",
+    "features_cta": "Explore FLOW Presenter",
+    "mission_title": "WHY WE CREATED FLOW PRESENTER"
+  },
+  "features": [
+    {
+      "published": false,
+      "icon": "lyrics",
+      "title": "Song Lyrics Presentation",
+      "text": "Display worship song lyrics clearly, verse by verse.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "bible",
+      "title": "Bible Scripture Presentation",
+      "text": "Show Bible verses on screen for preaching and reading.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "slides",
+      "title": "Slide Management",
+      "text": "Organize and arrange slides for each part of the service.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "image",
+      "title": "Media and Image Support",
+      "text": "Use images and backgrounds in your presentation.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "video",
+      "title": "Video Presentation",
+      "text": "Play video content as part of the service.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "theme",
+      "title": "Presentation Themes",
+      "text": "Apply consistent styles to lyrics and scripture.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "audience",
+      "title": "Audience Display",
+      "text": "Send a clean output to the projector or main screen.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "stage",
+      "title": "Stage Display",
+      "text": "Give worship leaders their own confidence monitor view.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "timer",
+      "title": "Countdown Timers",
+      "text": "Show a countdown before the service begins.",
+      "image": ""
+    },
+    {
+      "published": false,
+      "icon": "service",
+      "title": "Worship Service Preparation",
+      "text": "Prepare the service order ahead of Sunday.",
+      "image": ""
+    }
+  ],
+  "mission": {
+    "mission": "To provide accessible and practical presentation software that empowers churches and ministries to improve their worship services, communicate God's Word clearly, and serve their congregations through technology.",
+    "vision": "To see more churches and ministries equipped with useful and accessible media production tools, regardless of their financial capacity.",
+    "values": [
+      {
+        "title": "Accessibility",
+        "text": "Quality tools should not be limited to churches with large budgets."
+      },
+      {
+        "title": "Service",
+        "text": "Technology should be used to support and serve others."
+      },
+      {
+        "title": "Simplicity",
+        "text": "Software should be practical and easy for volunteers to learn."
+      },
+      {
+        "title": "Community",
+        "text": "Development should grow through feedback, suggestions, and collaboration."
+      }
+    ]
+  },
+  "support": {
+    "title": "HELP KEEP THIS PROJECT GOING.",
+    "text": "FLOW Presenter is offered free of charge. Developing and maintaining software takes time, effort, and resources.\n\nIf this software has helped your church or media team, you can help me continue this journey through a voluntary donation.\n\nYour generosity will also help me with my ongoing hospital expenses.\n\nWhether big or small, every contribution is sincerely appreciated.",
+    "cta": "SUPPORT FLOW PRESENTER",
+    "note": "No donation is required. FLOW Presenter will remain free to use."
+  },
+  "tutorials": {
+    "title": "LEARN FLOW PRESENTER.",
+    "intro": "Video guides to help you and your volunteers get comfortable with FLOW Presenter, from installation to Sunday service.",
+    "categories": [
+      {
+        "name": "Getting Started"
+      },
+      {
+        "name": "Installation Guide"
+      },
+      {
+        "name": "Creating Presentations"
+      },
+      {
+        "name": "Adding Songs and Lyrics"
+      },
+      {
+        "name": "Adding Bible Scriptures"
+      },
+      {
+        "name": "Managing Slides"
+      },
+      {
+        "name": "Using Themes"
+      },
+      {
+        "name": "Audience and Stage Display"
+      },
+      {
+        "name": "Troubleshooting"
+      }
+    ],
+    "items": []
+  },
+  "download": {
+    "title": "GET FLOW PRESENTER FOR FREE.",
+    "description": "Start improving your church presentation experience with FLOW Presenter. Download the latest available version and follow the installation instructions.",
+    "notice": "FLOW Presenter is free software. No payment or donation is required to download or use it.",
+    "requirements": "",
+    "install_steps": "Download the installer using the button above.\nOpen the downloaded file to start the setup.\nFollow the steps in the installer.\nOpen FLOW Presenter from your Start menu or desktop shortcut.",
+    "releases": []
+  },
+  "about": {
+    "title": "THE STORY BEHIND FLOW PRESENTER.",
+    "intro": "FLOW Presenter was created out of a desire to build practical software for churches that cannot afford expensive presentation solutions.",
+    "story": "FLOW Presenter started as a personal project: a way to put my skills in software and media production to use for the church.\n\nAlong the way, it also became part of my own journey, including the ongoing hospital expenses I am facing today. Sharing it for free is my way of serving while I keep building.",
+    "why": "Many church media teams are made up of volunteers working with limited budgets. Professional presentation software can be expensive, and that cost should not stand between a church and a clear, well-run worship service.",
+    "problems": "High subscription and licence costs for small churches.\nComplicated tools that are hard for new volunteers to learn.\nMedia teams having to piece together several programs for one service.",
+    "philosophy": "Keep it practical, keep it simple, and keep it free. Every update is guided by what real church media teams need on a Sunday, and by the feedback of the people who use it.",
+    "future": "Continue improving stability and ease of use, publish more tutorials, and grow FLOW Presenter together with the churches and media teams who use it.",
+    "developer_text": "FLOW Presenter is an independent software project developed under JPHON. It is continuously being improved through learning, experimentation, feedback, and the support of its community.\n\nThis is not a perfect software, and there is always room to improve. If you discover a bug, have a suggestion, or want to request a feature, I would be happy to hear from you."
+  },
+  "donate": {
+    "title": "YOUR SUPPORT MAKES A DIFFERENCE.",
+    "subtitle": "Help me continue creating free software for churches while supporting me through my ongoing hospital expenses.",
+    "message": "First of all, thank you for taking the time to visit this page.\n\nFLOW Presenter was created because I wanted to help churches and ministries experience better media production without having to spend a lot of money on expensive software.\n\nI decided to share this software for free because I believe useful tools should be accessible to those who need them.\n\nBehind this project, however, is a personal journey. I am also dealing with ongoing hospital expenses, and maintaining and developing this software requires time, effort, and resources.\n\nIf you have found FLOW Presenter useful, and if you are willing and able, I would sincerely appreciate any voluntary donation.\n\nYour support will help me with my hospital bills and encourage me to continue developing free software that can benefit more churches and ministries.\n\nThank you for your kindness, prayers, encouragement, and support.",
+    "thanks": "Every contribution, every prayer, and every word of encouragement means a lot. Thank you for being part of this journey.",
+    "gcash": {
+      "enabled": true,
+      "holder": "JEPHONE JEZEEL ALBOR",
+      "number": "",
+      "qr": "assets/uploads/gcash-qr.png",
+      "logo": "assets/uploads/gcash-logo.png"
+    },
+    "maya": {
+      "enabled": true,
+      "holder": "JEPHONE JEZEEL ALBOR",
+      "number": "",
+      "qr": "assets/uploads/maya-qr.png",
+      "logo": "assets/uploads/maya-logo.png"
+    },
+    "bank": {
+      "enabled": true,
+      "bank_name": "GoTyme Bank",
+      "holder": "JEPHONE JEZEEL ALBOR",
+      "number": "",
+      "qr": "assets/uploads/bank-qr.png",
+      "logo": "assets/uploads/bank-logo.png"
+    }
+  }
+}
