@@ -290,6 +290,12 @@ button { font: inherit; }
 .release summary::-webkit-details-marker { display: none; }
 .release-v { font-weight: 600; }
 .release .plain-list { margin-top: 0.8rem; }
+.platform-note { display: flex; gap: 0.5rem; align-items: center; margin: 0.9rem 0 0; }
+.platform-card { display: flex; gap: 0.9rem; align-items: flex-start; }
+.platform-card > .icon { flex: none; width: 28px; height: 28px; color: var(--accent-soft); }
+.platform-card .h4 { margin: 0 0 0.35rem; }
+.platform-card p { margin: 0; }
+.badge-soft { background: var(--accent-tint); color: var(--accent-soft); }
 .badge { font-style: normal; font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 999px; background: var(--accent); color: #140f22; margin-left: 0.4rem; vertical-align: middle; }
 
 /* ---------- about ---------- */

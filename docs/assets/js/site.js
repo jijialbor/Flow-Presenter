@@ -49,6 +49,8 @@
     close: '<path d="M6 6l12 12M18 6 6 18"/>',
     arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
     check: '<path d="m5 12 5 5 9-10"/>',
+    windows: '<path d="M3 5.5 10.5 4.5v7H3zM12.5 4.2 21 3v8.5h-8.5zM3 12.5h7.5v7L3 18.5zM12.5 12.5H21V21l-8.5-1.2z"/>',
+    apple: '<path d="M16.5 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.9-.9-3.1-.8c-1.6 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.7 0 0-2.4-.9-2.4-3.7zM14.2 5.6c.6-.8 1.1-1.9 1-3-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2.1-.5 2.7-1.3z"/>',
   };
   const icon = (name, cls = 'icon') =>
     `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ICONS.star}</svg>`;
@@ -259,6 +261,7 @@
           </dl>
           ${link ? `<a class="btn btn-primary btn-lg" href="${esc(link)}" rel="noopener">${icon('download', 'icon icon-sm')}DOWNLOAD v${esc(latest.version)}</a>`
                  : `<p class="muted">The download file for this version is not available yet.</p>`}
+          ${filled(d.platform_note) ? `<p class="platform-note small muted">${icon('windows', 'icon icon-sm')}${esc(d.platform_note)}</p>` : ''}
           ${lines(latest.notes).length ? `<h3 class="h4 mt">What's new</h3>
             <ul class="check-list">${lines(latest.notes).map((n) => `<li>${icon('check', 'icon icon-sm')}${esc(n)}</li>`).join('')}</ul>` : ''}`;
       } else {
@@ -273,6 +276,7 @@
         <div class="download-grid">
           <article class="download-card reveal">${main}</article>
           <div class="download-side">
+            ${filled(d.macos_note) ? `<article class="card platform-card reveal">${icon('apple')}<div><h2 class="h4">macOS <em class="badge badge-soft">Coming soon</em></h2><p class="small muted">${esc(d.macos_note)}</p></div></article>` : ''}
             ${req.length ? `<article class="card reveal"><h2 class="h4">System requirements</h2><ul class="plain-list">${req.map((r) => `<li>${esc(r)}</li>`).join('')}</ul></article>` : ''}
             ${steps.length ? `<article class="card reveal"><h2 class="h4">Installation instructions</h2><ol class="steps">${steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
               <p class="small muted mt">Need help? See the <a href="tutorial.html">tutorials</a>.</p></article>` : ''}

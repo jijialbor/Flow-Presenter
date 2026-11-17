@@ -178,9 +178,19 @@
     "title": "GET FLOW PRESENTER FOR FREE.",
     "description": "Start improving your church presentation experience with FLOW Presenter. Download the latest available version and follow the installation instructions.",
     "notice": "FLOW Presenter is free software. No payment or donation is required to download or use it.",
-    "requirements": "",
+    "platform_note": "For Windows 10 (version 1809) or later, 64-bit. Also works on Windows 11.",
+    "macos_note": "A macOS version of FLOW Presenter is coming soon.",
+    "requirements": "Windows 10 (version 1809 or newer) or Windows 11, 64-bit\n64-bit (x64) dual-core processor\n4 GB RAM (8 GB recommended for HD/4K video)\nAbout 400 MB of free disk space\nScreen resolution of 1280 × 720 or higher\nA second display or projector for presenting (recommended)",
     "install_steps": "Download the installer using the button above.\nOpen the downloaded file to start the setup.\nFollow the steps in the installer.\nOpen FLOW Presenter from your Start menu or desktop shortcut.",
-    "releases": []
+    "releases": [
+      {
+        "version": "1.2",
+        "date": "2026-11-17",
+        "size": "73 MB",
+        "url": "https://drive.google.com/uc?export=download&id=1eOB5SLJgRBGbjjlbkpvS7tZPZhmAEDdF",
+        "notes": ""
+      }
+    ]
   },
   "about": {
     "title": "THE STORY BEHIND FLOW PRESENTER.",

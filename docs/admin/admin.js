@@ -110,6 +110,8 @@
       groups: [
         { title: 'Download page', fields: [
           F('download.title', 'Headline'), F('download.description', 'Description', 'textarea'), F('download.notice', 'Free software notice', 'textarea'),
+          F('download.platform_note', 'Windows note (under the download button)', 'text', { hint: 'Leave empty to hide.' }),
+          F('download.macos_note', 'macOS "Coming soon" text', 'textarea', { hint: 'Leave empty to hide the macOS card (e.g. once a Mac version is released).' }),
           F('download.requirements', 'System requirements', 'textarea', { hint: 'One per line. The section is hidden while empty.' }),
           F('download.install_steps', 'Installation instructions', 'textarea', { hint: 'One step per line.' }),
         ] },
