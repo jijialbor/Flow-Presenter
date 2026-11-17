@@ -48,7 +48,7 @@
         ] },
         { title: 'Images', fields: [
           F('images.logo', 'Logo (square image)', 'image'),
-          F('images.hero', 'Home hero screenshot of FLOW Presenter', 'image', { hint: 'A real screenshot of the software (16:10 works best). Until you upload one, an illustrated window is shown.' }),
+          F('images.hero', 'Home hero screenshot of FLOW Presenter', 'image', { hint: 'A real, full-window screenshot of the software (any size; it is shown uncropped). Until you upload one, an illustrated window is shown.' }),
         ] },
       ],
     },
