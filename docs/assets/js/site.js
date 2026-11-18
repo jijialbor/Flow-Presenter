@@ -259,7 +259,7 @@
             ${filled(latest.date) ? `<div><dt>Release date</dt><dd>${esc(fmtDate(latest.date))}</dd></div>` : ''}
             ${filled(latest.size) ? `<div><dt>File size</dt><dd>${esc(latest.size)}</dd></div>` : ''}
           </dl>
-          ${link ? `<a class="btn btn-primary btn-lg" href="${esc(link)}" rel="noopener">${icon('download', 'icon icon-sm')}DOWNLOAD v${esc(latest.version)}</a>`
+          ${link ? `<a class="btn btn-primary btn-lg" href="${esc(link)}" rel="noopener" download>${icon('download', 'icon icon-sm')}DOWNLOAD v${esc(latest.version)}</a>`
                  : `<p class="muted">The download file for this version is not available yet.</p>`}
           ${filled(d.platform_note) ? `<p class="platform-note small muted">${icon('windows', 'icon icon-sm')}${esc(d.platform_note)}</p>` : ''}
           ${lines(latest.notes).length ? `<h3 class="h4 mt">What's new</h3>
@@ -289,7 +289,7 @@
               <summary><span class="release-v">v${esc(r.version)}${i === 0 ? ' <em class="badge">Latest</em>' : ''}</span>
               <span class="muted small">${esc(fmtDate(r.date))}${filled(r.size) ? ' · ' + esc(r.size) : ''}</span></summary>
               ${lines(r.notes).length ? `<ul class="plain-list">${lines(r.notes).map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}
-              ${rl && i > 0 ? `<a class="small" href="${esc(rl)}" rel="noopener">Download v${esc(r.version)}</a>` : ''}
+              ${rl && i > 0 ? `<a class="small" href="${esc(rl)}" rel="noopener" download>Download v${esc(r.version)}</a>` : ''}
             </details>`;
           }).join('')}</div>` : ''}
       </div></section>`;
